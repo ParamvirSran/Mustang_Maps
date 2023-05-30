@@ -1,0 +1,113 @@
+{"users": [
+  {
+    "password": "pass1",
+    "favourites": [
+      {
+        "buildingName": "Building A",
+        "name": "Favourite POI 1",
+        "description": "Favourite Point of Interest 1 description",
+        "location": [
+          100,
+          200
+        ],
+        "layer": "LayerName",
+        "floorNum": 0
+      },
+      {
+        "buildingName": "Building B",
+        "name": "Favourite POI 2",
+        "description": "Favourite Point of Interest 2 description",
+        "location": [
+          300,
+          400
+        ],
+        "layer": "LayerName",
+        "floorNum": 1
+      }
+    ],
+    "userCreated": [
+      {
+        "buildingName": "Building C",
+        "name": "User Created POI 1",
+        "description": "User Created Point of Interest 1 description",
+        "location": [
+          500,
+          600
+        ],
+        "layer": "LayerName",
+        "floorNum": 0
+      },
+      {
+        "buildingName": "Building D",
+        "name": "User Created POI 2",
+        "description": "User Created Point of Interest 2 description",
+        "location": [
+          700,
+          800
+        ],
+        "layer": "LayerName",
+        "floorNum": 1
+      }
+    ],
+    "isDeveloper": true,
+    "username": "user1"
+  },
+  {
+    "password": "pass2",
+    "favourites": [
+      {
+        "buildingName": "Building A",
+        "name": "Favourite POI 1",
+        "description": "Favourite Point of Interest 1 description",
+        "location": [
+          100,
+          200
+        ],
+        "layer": "LayerName",
+        "floorNum": 0
+      },
+      {
+        "buildingName": "Building B",
+        "name": "Favourite POI 2",
+        "description": "Favourite Point of Interest 2 description",
+        "location": [
+          300,
+          400
+        ],
+        "layer": "LayerName",
+        "floorNum": 1
+      }
+    ],
+    "userCreated": [
+      {
+        "buildingName": "Building C",
+        "name": "User Created POI 1",
+        "description": "User Created Point of Interest 1 description",
+        "location": [
+          500,
+          600
+        ],
+        "layer": "LayerName",
+        "floorNum": 0
+      },
+      {
+        "buildingName": "Building D",
+        "name": "User Created POI 2",
+        "description": "User Created Point of Interest 2 description",
+        "location": [
+          700,
+          800
+        ],
+        "layer": "LayerName",
+        "floorNum": 1
+      }
+    ],
+    "isDeveloper": false,
+    "username": "user2"
+  },
+  {
+    "password": "123",
+    "isDeveloper": false,
+    "username": "user"
+  }
+]}

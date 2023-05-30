@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@../mustangs.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uwo.team33.LoginController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="487.0" prefWidth="691.0"  AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="500.0" prefWidth="250.0" spacing="15.0">
+               <children>
+                  <Region VBox.vgrow="ALWAYS" />
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login:">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="loginField" prefHeight="30.0" prefWidth="150.0" promptText="Username" />
+                  <PasswordField fx:id="passwordField" prefHeight="30.0" prefWidth="150.0" promptText="Password" />
+                  <Button fx:id="sign_in_button" mnemonicParsing="false" onAction="#signIn" prefHeight="35.0" prefWidth="95.0" text="Sign in" />
+                  <Region VBox.vgrow="ALWAYS" />
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account:">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="new_user_button" mnemonicParsing="false" onAction="#createNewAccount" prefHeight="35.0" prefWidth="95.0" text="New User" />
+                  <Region VBox.vgrow="ALWAYS" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            <Region HBox.hgrow="ALWAYS" />
+            <VBox alignment="CENTER" fillWidth="false" spacing="20.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Mustang Maps">
+                     <font>
+                        <Font name="Book Antiqua Bold Italic" size="48.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="356.0" fitWidth="345.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS">
+                     <image>
+                        <Image url="@../pictures/uwoPurpleLogo.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

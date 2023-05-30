@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" prefHeight="700.0" prefWidth="1000.0"
+            stylesheets="@../mustangs.css" xmlns="http://javafx.com/javafx/8"
+            fx:controller="uwo.team33.MCController">
+    <children>
+        <TabPane fx:id="building" layoutX="311.0" layoutY="37.0" prefHeight="550.0" prefWidth="750.0"
+                 tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="250.0"
+                 AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0">
+            <tabs>
+                <Tab fx:id="ground_floor" text="Ground Floor">
+                    <content>
+                        <ScrollPane fx:id="ground_view" hvalue="0.5" onScroll="#handleZoom" prefHeight="550.0"
+                                    prefWidth="750.0" vvalue="0.4">
+                            <content>
+                                <AnchorPane fx:id="ground_content" minHeight="0.0" minWidth="0.0"
+                                            onMouseClicked="#getLocation" prefHeight="900.0" prefWidth="1200.0">
+                                    <children>
+                                        <ImageView fitHeight="800.0" fitWidth="1200.0" layoutY="50.0"
+                                                   pickOnBounds="true" preserveRatio="true"
+                                                   AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0"
+                                                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                                            <image>
+                                                <Image url="@../pictures/MC_Ground.jpg"/>
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                    <padding>
+                                        <Insets bottom="10.0" right="10.0"/>
+                                    </padding>
+                                </AnchorPane>
+                            </content>
+                        </ScrollPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="floor_1" text="Floor 1">
+                    <content>
+                        <ScrollPane fx:id="floor1_view" hvalue="0.5" onScroll="#handleZoom" prefHeight="550.0"
+                                    prefWidth="750.0" vvalue="0.4">
+                            <content>
+                                <AnchorPane fx:id="floor1_content" minHeight="0.0" minWidth="0.0"
+                                            onMouseClicked="#getLocation" prefHeight="900.0" prefWidth="1200.0">
+                                    <padding>
+                                        <Insets bottom="10.0" right="10.0"/>
+                                    </padding>
+                                    <children>
+                                        <ImageView fitHeight="800.0" fitWidth="1200.0" layoutY="50.0"
+                                                   pickOnBounds="true" preserveRatio="true"
+                                                   AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0"
+                                                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                                            <image>
+                                                <Image url="@../pictures/MC_Floor1.jpg"/>
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </ScrollPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="floor_2" text="Floor 2">
+                    <content>
+                        <ScrollPane fx:id="floor2_view" hvalue="0.5" onScroll="#handleZoom" prefHeight="550.0"
+                                    prefWidth="750.0" vvalue="0.4">
+                            <content>
+                                <AnchorPane fx:id="floor2_content" minHeight="0.0" minWidth="0.0"
+                                            onMouseClicked="#getLocation" prefHeight="900.0" prefWidth="1200.0">
+                                    <padding>
+                                        <Insets bottom="10.0" right="10.0"/>
+                                    </padding>
+                                    <children>
+                                        <ImageView fitHeight="800.0" fitWidth="1200.0" layoutY="50.0"
+                                                   pickOnBounds="true" preserveRatio="true"
+                                                   AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0"
+                                                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                                            <image>
+                                                <Image url="@../pictures/MC_Floor2.jpg"/>
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </ScrollPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="floor_3" text="Floor 3">
+                    <content>
+                        <ScrollPane fx:id="floor3_view" hvalue="0.5" onScroll="#handleZoom" prefHeight="550.0"
+                                    prefWidth="750.0" vvalue="0.4">
+                            <content>
+                                <AnchorPane fx:id="floor3_content" minHeight="0.0" minWidth="0.0"
+                                            onMouseClicked="#getLocation" prefHeight="900.0" prefWidth="1200.0">
+                                    <padding>
+                                        <Insets bottom="10.0" right="10.0"/>
+                                    </padding>
+                                    <children>
+                                        <ImageView fitHeight="800.0" fitWidth="1200.0" layoutY="50.0"
+                                                   pickOnBounds="true" preserveRatio="true"
+                                                   AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0"
+                                                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                                            <image>
+                                                <Image url="@../pictures/MC_Floor3.jpg"/>
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </ScrollPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="floor_4" text="Floor 4">
+                    <content>
+                        <ScrollPane fx:id="floor4_view" hvalue="0.5" onScroll="#handleZoom" prefHeight="550.0"
+                                    prefWidth="750.0" vvalue="0.4">
+                            <content>
+                                <AnchorPane fx:id="floor4_content" minHeight="0.0" minWidth="0.0"
+                                            onMouseClicked="#getLocation" prefHeight="900.0" prefWidth="1200.0">
+                                    <padding>
+                                        <Insets bottom="10.0" right="10.0"/>
+                                    </padding>
+                                    <children>
+                                        <ImageView fitHeight="800.0" fitWidth="1200.0" layoutY="50.0"
+                                                   pickOnBounds="true" preserveRatio="true"
+                                                   AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0"
+                                                   AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                                            <image>
+                                                <Image url="@../pictures/MC_Floor4.jpg"/>
+                                            </image>
+                                        </ImageView>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </ScrollPane>
+                    </content>
+                </Tab>
+            </tabs>
+            <opaqueInsets>
+                <Insets/>
+            </opaqueInsets>
+        </TabPane>
+        <VBox alignment="TOP_CENTER" layoutX="21.0" layoutY="101.0" prefHeight="530.0" prefWidth="218.0" spacing="10.0"
+              AnchorPane.bottomAnchor="69.0" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="101.0">
+            <children>
+                <TextField fx:id="search_box" promptText="Search Points of Interest" style="-fx-border-radius: 20; -fx-background-radius: 20;" />
+                <Button mnemonicParsing="false" onAction="#searchPOI" prefHeight="30.0" prefWidth="95.0" text="Search" />
+                <Region VBox.vgrow="ALWAYS"/>
+                <Button fx:id="home_button" alignment="CENTER" mnemonicParsing="false" onAction="#loadHome"
+                        prefHeight="30.0" prefWidth="95.0" text="Home"/>
+                <Button fx:id="layers_button" mnemonicParsing="false" onAction="#selectLayers" prefHeight="30.0"
+                        prefWidth="95.0" text="Layers"/>
+                <Button fx:id="favourites_button" mnemonicParsing="false" onAction="#loadFavourites" prefHeight="30.0"
+                        prefWidth="95.0" text="Favourites"/>
+                <Button fx:id="addPOI_button" mnemonicParsing="false" onAction="#addPOI" prefHeight="30.0"
+                        prefWidth="95.0" text="+Add POI"/>
+                <Region VBox.vgrow="ALWAYS"/>
+                <Accordion prefHeight="250.0">
+                    <panes>
+                        <TitledPane animated="false" text="Built-in Points of Interest">
+                            <content>
+                                <ScrollPane fitToWidth="true" prefHeight="300.0" prefWidth="200.0">
+                                    <content>
+                                        <VBox fx:id="built_in_POI" alignment="TOP_CENTER" prefHeight="300.0"
+                                              prefWidth="200.0" spacing="5.0">
+                                            <padding>
+                                                <Insets bottom="5.0" top="10.0"/>
+                                            </padding>
+                                            <children>
+                                                <!-- The dynamic buttons will be added here -->
+                                            </children>
+                                        </VBox>
+
+
+                                    </content>
+                                </ScrollPane>
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" layoutX="10.0" layoutY="10.0" text="User Points of Interest">
+                            <content>
+                                <ScrollPane fitToWidth="true" prefHeight="300.0" prefWidth="200.0">
+                                    <content>
+                                        <VBox fx:id="user_POI" alignment="TOP_CENTER" prefHeight="300.0"
+                                              prefWidth="200.0" spacing="5.0">
+                                            <padding>
+                                                <Insets bottom="5.0" top="10.0"/>
+                                            </padding>
+                                        </VBox>
+                                    </content>
+                                </ScrollPane>
+                            </content>
+                        </TitledPane>
+                    </panes>
+                </Accordion>
+            </children>
+            <padding>
+                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0"/>
+            </padding>
+        </VBox>
+        <MenuBar layoutX="700.0" layoutY="154.0" style="-fx-background-color: #1e90ff; -fx-font-weight: bold;"
+                 AnchorPane.rightAnchor="125.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Middlesex College">
+                    <items>
+                        <MenuItem fx:id="campus_menu" mnemonicParsing="false" onAction="#loadHome" text="Campus Map"/>
+                        <MenuItem fx:id="mc_menu" mnemonicParsing="false" text="MiddleSex College" />
+                        <MenuItem fx:id="pab_menu" mnemonicParsing="false" onAction="#loadPAB" text="Physics and Astronomy" />
+                        <MenuItem fx:id="wsc_menu" mnemonicParsing="false" onAction="#loadWSC" text="Western Science Centre" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ImageView fx:id="help_icon" fitHeight="50.0" fitWidth="50.0" layoutX="887.0" layoutY="31.0"
+                   onMouseClicked="#loadHelp" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="30.0"
+                   AnchorPane.topAnchor="30.0">
+            <image>
+                <Image url="@../pictures/purpleQuestionMarkwBackground.png"/>
+            </image>
+        </ImageView>
+        <HBox alignment="CENTER" layoutX="175.0" layoutY="16.0" prefHeight="128.0" prefWidth="650.0"
+              AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="175.0" AnchorPane.topAnchor="16.0">
+            <children>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Label text="Mustang" textFill="#ffffff">
+                    <font>
+                        <Font name="Book Antiqua Bold Italic" size="48.0"/>
+                    </font>
+                </Label>
+                <ImageView fitHeight="128.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../pictures/uwoMustangLogo.png"/>
+                    </image>
+                </ImageView>
+                <Label text="Maps" textFill="#ffffff">
+                    <font>
+                        <Font name="Book Antiqua Bold Italic" size="48.0"/>
+                    </font>
+                </Label>
+                <Region HBox.hgrow="ALWAYS"/>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

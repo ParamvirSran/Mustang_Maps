@@ -1,0 +1,762 @@
+{
+  "points": [
+    {
+      "name": "MC 105",
+      "description": "Classroom",
+      "layer": "Classroom",
+      "location": [
+        220.0,
+        575.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 1
+    },
+    {
+      "name": "MC 110",
+      "description": "Classroom",
+      "layer": "Classroom",
+      "location": [
+        640.0,
+        300.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 1
+    },
+    {
+      "name": "MC 17",
+      "description": "Classroom",
+      "layer": "Classroom",
+      "location": [
+        339.0,
+        401.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 0
+    },
+    {
+      "name": "The Grad Club",
+      "description": "Restaurant in Middlesex College",
+      "layer": "Restaurant",
+      "location": [
+        618.0,
+        275.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 0
+    },
+    {
+      "name": "MC 230",
+      "description": "Computer Lab",
+      "layer": "Computer Lab",
+      "location": [
+        116.0,
+        495.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 2
+    },
+    {
+      "name": "MC 235",
+      "description": "Computer Lab",
+      "layer": "Computer Lab",
+      "location": [
+        182.0,
+        460.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 2
+    },
+    {
+      "name": "MC 240",
+      "description": "Computer Lab",
+      "layer": "Computer Lab",
+      "location": [
+        332.0,
+        406.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 2
+    },
+    {
+      "name": "MC 244",
+      "description": "Computer Lab",
+      "layer": "Computer Lab",
+      "location": [
+        432.0,
+        357.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 2
+    },
+    {
+      "name": "MC 220",
+      "description": "Collaborative Learning Room for Computer Science Students",
+      "layer": "CollaborativeRoom",
+      "location": [
+        238.0,
+        550.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 2
+    },
+    {
+      "name": "MC 239",
+      "description": "Collaborative Learning Room for Computer Science Students",
+      "layer": "CollaborativeRoom",
+      "location": [
+        242.0,
+        468.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 2
+    },
+    {
+      "name": "MC 342",
+      "description": "Computer Lab",
+      "layer": "Computer Lab",
+      "location": [
+        476.0,
+        320.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 3
+    },
+    {
+      "name": "MC 325",
+      "description": "Collaborative Learning Room for Computer Science Students",
+      "layer": "CollaborativeRoom",
+      "location": [
+        225.0,
+        575.0
+      ],
+      "buildingName": "Middlesex College",
+      "floorNum": 3
+    },
+    {
+      "name": "Weldon Library",
+      "description": "The biggest library on campus",
+      "layer": "Library",
+      "location": [
+        315.0,
+        864.5
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    },
+    {
+      "name": "University Community Centre",
+      "description": "The center of campus life get food and hang out with friends",
+      "layer": "General",
+      "location": [
+        220.0,
+        555.5
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    },
+    {
+      "name": "Alumini Hall",
+      "description": "The center of western mustangs and feautures trophy museum",
+      "layer": "General",
+      "location": [
+        459.0,
+       1037.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Ivey Business School",
+      "description": "Western's school of business",
+      "layer": "General",
+      "location": [
+       657.0 , 781.5
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Somerville House",
+      "description": "Home to the great hall where convocations take place",
+      "layer": "General",
+      "location": [
+       490.0 , 706.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Western Student Services",
+      "description": "Wester's Student services building",
+      "layer": "General",
+      "location": [
+       192.5,646.5
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Thames Hall",
+      "description": "One of the most beautiful places on campus",
+      "layer": "General",
+      "location": [
+       454.5,868.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Taylor Library",
+      "description": "Library",
+      "layer": "General",
+      "location": [
+       600.0,154.0 
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Spencer's Engineering Building",
+      "description": "Home of one of the finest engineers in Canada",
+      "layer": "General",
+      "location": [
+       259.0,1196.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Dental Science Building",
+      "description": "Western's school for the students studying denstist",
+      "layer": "General",
+      "location": [
+       445.0,113.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Law Building",
+      "description": "Western's school for studying law",
+      "layer": "General",
+      "location": [
+       227.0,927.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Health Science Building",
+      "description": "Health Science Building for western University",
+      "layer": "General",
+      "location": [
+       523.0,187.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Robart's Research Institute",
+      "description": "Western's institute for research in neuroscience",
+      "layer": "General",
+      "location": [
+       552.0,31.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Physics Building",
+      "description": "Home of western's faculty for physics",
+      "layer": "General",
+      "location": [
+       694.0,378.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"3M Center",
+      "description": "Western's 3M Center",
+      "layer": "General",
+      "location": [
+       525.0,819.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Stevenson's Lawson Building",
+      "description": "Western's Building in name of Stevenson's Lawson",
+      "layer": "General",
+      "location": [
+       502.0,583.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"University College",
+      "description": "One of the center hum and major attractions of campus",
+      "layer": "General",
+      "location": [
+       618.0,570.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"Social Science Parking Lot",
+      "description": "Parking Lot for students, faculties and visitors",
+      "layer": "General",
+      "location": [
+       215.0,365.0
+      ],
+      "buildingName": "Main Campus",
+      "floorNum": 0
+    }
+    ,
+    {
+      "name":"WSC 55",
+      "description": "Room on ground floor in western science",
+      "layer": "Classroom",
+      "location": [
+       828,
+       454
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 0
+    } ,
+    {
+      "name":"WSC 56",
+      "description": "Room on ground floor in western science",
+      "layer": "Computer Lab",
+      "location": [
+       598.0,426.5
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 0
+    },
+    {
+      "name":"WSC 54",
+      "description": "Room on ground floor in western science",
+      "layer": "Computer Lab",
+      "location": [
+       529.5,415.5
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 0
+    },
+    {
+      "name":"WSC 60",
+      "description": "Men's Room on ground floor in western science",
+      "layer": "Classroom",
+      "location": [
+       590.0,529.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 0
+    },
+    {
+      "name":"WSC 63",
+      "description": "Women's Room on ground floor in western science",
+      "layer": "Classroom",
+      "location": [
+       711.0,551.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 0
+    },
+    {
+      "name":"Elevator",
+      "description": "Elevator on ground floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       537.5,319.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 0
+    },
+    {
+      "name":"WSC 154",
+      "description": "Men's Room on first floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       454.0,404.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 1
+    },
+    {
+      "name":"WSC 155",
+      "description": "Women's Room on first floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       450.0,441.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 1
+    },
+    {
+      "name":"WSC 189",
+      "description": "Unisex Bathroom on first floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       650.0,551.5
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 1
+    },
+    {
+      "name":"Elevator",
+      "description": "Elevator on first floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       525.0,320.5
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 1
+    },
+    {
+      "name":"WSC 148",
+      "description": "Room on first floor in western science",
+      "layer": "Classroom",
+      "location": [
+       
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 1
+    },
+    {
+      "name":"WSC 254",
+      "description": "Men's Room on second floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       464.5,396.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 2
+    }
+    ,
+    {
+      "name":"WSC 255",
+      "description": "Women's Room on second floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       435.5,431.5
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 2
+    }
+    ,
+    {
+      "name":"Elevator",
+      "description": "Elevator on second floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       539.0,322.5
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 2
+    }
+    ,
+    {
+      "name":"WSC 240",
+      "description": "Room on second floor in western science",
+      "layer": "Classroom",
+      "location": [
+       261.0,225.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 2
+    }
+    ,
+    {
+      "name":"WSC 248",
+      "description": "Room on second floor in western science",
+      "layer": "Classroom",
+      "location": [
+       345.5,400.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 2
+    }
+    ,
+    {
+      "name":"WSC 339",
+      "description": "Lab on third floor in western science",
+      "layer": "Computer Lab",
+      "location": [
+       231.0,230.5
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 3
+    },
+    {
+      "name":"Elevator",
+      "description": "Elevator on third floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       541.5,322.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 3
+    },
+    {
+      "name":"WSC 356",
+      "description": "Women's Room on third floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       455.0,440.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 3
+    },
+    {
+      "name":"WSC 354",
+      "description": "Men's Room on third floor in western science",
+      "layer": "Accessibility",
+      "location": [
+       462.5,400.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 3
+    },
+    {
+      "name":"WSC 329",
+      "description": "Lab on third floor in western science",
+      "layer": "Computer Lab",
+      "location": [
+       230.5,439.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 3
+    },
+    {
+      "name":"WSC 355",
+      "description": "Lab on third floor in western science",
+      "layer": "Computer Lab",
+      "location": [
+       534.5,431.0
+      ],
+      "buildingName": "Western Science Centre",
+      "floorNum": 3
+    }
+    ,
+    {
+      "name":"PAB Elevator",
+      "description": "Elevator on ground floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       447.0,291.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 0
+    },
+    {
+      "name":"PAB 26",
+      "description": "Seminar Hall on ground floor in Physics And Astronomy Building",
+      "layer": "Classroom",
+      "location": [
+       703.0,333.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 0
+    },
+    {
+      "name":"PAB 18",
+      "description": "Men's Room on ground floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       501.0,298
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 0
+    },
+    {
+      "name":"PAB 20",
+      "description": "Women's Room on ground floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       534.5,294.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 0
+    },
+    {
+      "name":"PAB 13",
+      "description": "Mechanical Study Space on ground floor in Physics And Astronomy Building",
+      "layer": "CollaborativeRoom",
+      "location": [
+       379.5,306.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 0
+    },
+    {
+      "name":"PAB Elevator",
+      "description": "Elevator on first floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       414.0,317.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 1
+    },
+    {
+      "name":"PAB 131",
+      "description": "Men's Room on first floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       476.5,326.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 1
+    },
+    {
+      "name":"PAB 133",
+      "description": "Women's Room on first floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       503.0,333.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 1
+    },
+    {
+      "name":"PAB 117",
+      "description": "Classroom on first floor in Physics And Astronomy Building",
+      "layer": "Classroom",
+      "location": [
+       336.0,352.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 1
+    },
+    {
+      "name":"PAB 130",
+      "description": "Lab on first floor in Physics And Astronomy Building",
+      "layer": "Computer Lab",
+      "location": [
+       466.5,245.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 1
+    },
+    {
+      "name":"PAB Elevator",
+      "description": "Elevator on second floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       417.5,292.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 2
+    },
+    {
+      "name":"PAB 219",
+      "description": "Men's Room on second floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       472.5,301.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 2
+    },
+    {
+      "name":"PAB 221",
+      "description": "Women's Room on second floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       509.5,303.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 2
+    },
+    {
+      "name":"PAB 211",
+      "description": "Lab on second floor in Physics And Astronomy Building",
+      "layer": "Computer Lab",
+      "location": [
+       340.0,313.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 2
+    },
+    {
+      "name":"PAB 227",
+      "description": "Lab on second floor in Physics And Astronomy Building",
+      "layer": "Computer Lab",
+      "location": [
+       591.0,297.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 2
+    },
+    {
+      "name":"PAB 307",
+      "description": "Women's Room on third floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       321.5,601.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 3
+    },
+    {
+      "name":"PAB Elevator",
+      "description": "Elevator on third floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       568.5,544.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 3
+    },
+    {
+      "name":"PAB 305",
+      "description": "Men's Room on third floor in Physics And Astronomy Building",
+      "layer": "Accessibility",
+      "location": [
+       325.0,634.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 3
+    },
+    {
+      "name":"PAB 330",
+      "description": "Mechanical Study Collaborative room on third floor in Physics And Astronomy Building",
+      "layer": "CollaborativeRoom",
+      "location": [
+       483.0,327.0
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 3
+    },
+    {
+      "name":"PAB 301",
+      "description": "Lab on third floor in Physics And Astronomy Building",
+      "layer": "Computer Lab",
+      "location": [
+       257.0,616.5
+      ],
+      "buildingName": "Physics And Astronomy",
+      "floorNum": 3
+    }
+  ]
+}

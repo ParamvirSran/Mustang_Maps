@@ -1,0 +1,71 @@
+{
+  "buildings": [
+    {
+      "name": "Middlesex College",
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "Ground floor"
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "First floor"
+        },
+        {
+          "floorNumber": 3,
+          "floorName": "Second floor"
+        },
+        {
+          "floorNumber": 4,
+          "floorName": "Third floor"
+        },
+        {
+          "floorNumber": 5,
+          "floorName": "Fourth floor"
+        }
+      ]
+    },
+    {
+      "name": "Physics and Astronomy",
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "Lower ground floor"
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "First floor"
+        },
+        {
+          "floorNumber": 3,
+          "floorName": "Second floor"
+        },
+        {
+          "floorNumber": 4,
+          "floorName": "Third floor"
+        }
+      ]
+    },
+    {
+      "name": "Western Science Centre",
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "Ground floor"
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "First floor"
+        },
+        {
+          "floorNumber": 3,
+          "floorName": "Second floor"
+        },
+        {
+          "floorNumber": 4,
+          "floorName": "Third floor"
+        }
+      ]
+    }
+  ]
+}
